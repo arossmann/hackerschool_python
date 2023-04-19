@@ -1,6 +1,9 @@
 # if <condition>: <then> else: <else>
+print("Hallo Welt")
 name = input("Wie heißt du? ")
-if name == "Luke Skywalker":
-  print("Oh, dich habe ich doch schon einmal gesehen!")
+if name == "Inspirer":
+  print("Hallo Inspirer. Schön, dass du wieder da bist.")
+  print("Heute ist ein schöner Tag.")
+  print("wir lernen heute ein bisschen programmieren.")
 else:
-  print("Hallo, " + name)
+  print("Guten Morgen " + name)
